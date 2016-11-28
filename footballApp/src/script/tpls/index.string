@@ -1,0 +1,25 @@
+<div class="m-container">
+	<div class="m-wrapper" id='m-wrapper'>
+	</div>
+	<footer>
+		<ul>
+			<li action-type='switch.tab' data-tag='home'>
+				<i class='yo-ico'>&#xe751;</i>
+				<b>首页</b>
+			</li>
+			<li action-type='switch.tab' data-tag='find'>
+				<i class='yo-ico'>&#xe752;</i>
+				<b>发现</b>
+			</li>
+			<li ><i class='yo-ico'>&#xe77e;</i></li>
+			<li action-type='switch.tab' data-tag='my'>
+				<i class='yo-ico'>&#xe787;</i>
+				<b>我的</b>
+			</li>
+			<li>
+				<i class='yo-ico'>&#xe770;</i>
+				<b>退出</b>
+			</li>
+		</ul>
+	</footer>
+</div>

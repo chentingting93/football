@@ -1,0 +1,28 @@
+{
+  "ver": "1.0",
+  "ret": true,
+  "errcode": 0,
+  "errmsg": "",
+  "data": [{
+    "img": "img/01.jpg",
+    "title": "refresh-小丸子1"
+  }, {
+    "img": "img/02.jpg",
+    "title": "refresh-小丸子2"
+  }, {
+    "img": "img/03.jpg",
+    "title": "refresh-小丸子3"
+  }, {
+    "img": "img/04.jpg",
+    "title": "refresh-小丸子4"
+  }, {
+    "img": "img/01.jpg",
+    "title": "refresh-小丸子5"
+  }, {
+    "img": "img/02.jpg",
+    "title": "refresh-小丸子6"
+  },{
+    "img": "img/02.jpg",
+    "title": "refresh-小丸子7"
+  }]
+}

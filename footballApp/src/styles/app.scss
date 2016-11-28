@@ -1,0 +1,36 @@
+@import "./lib/core/reset";
+@import "./usage/core/common";
+@import "./usage/core/swiper.min.css";
+
+html,body{
+	width:100%;
+	height:100%;
+	overflow:hidden;
+}
+
+i,b{
+	font-style: normal;
+	font-weight: normal;
+}
+
+
+@import "./usage/module/index";
+@import "./usage/module/home";
+@import "./usage/module/guide";
+
+spa-app{
+   position:absolute;
+   overflow:hidden;
+}
+
+spa-view{
+    position:absolute;
+    z-index:0;
+	top:0;
+	left:0;
+	bottom:0;
+	width:100%;
+	background:#eceef0!important;
+	@include flexbox(flex);
+	@include flex-direction(column);
+}

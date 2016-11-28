@@ -1,0 +1,19 @@
+<div class="swiper-container" id='swiper-container'>
+  <div class="swiper-wrapper">
+    <div class="swiper-slide">
+    	<img src="./img/slide1.png" alt="">
+    </div>
+    <div class="swiper-slide">
+    	<img src="./img/slide2.png" alt="">
+    </div>
+    <div class="swiper-slide">
+    	<img src="./img/slide3.png" alt="">
+    </div>
+     <div class="swiper-slide">
+    	 <img src="./img/slide4.png" alt="">
+    	<p class="herf" action-type='go.index'>
+    		<a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+    	</p>
+    </div>
+  </div>
+</div>

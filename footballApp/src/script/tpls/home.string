@@ -1,0 +1,60 @@
+<div class="m-home">
+	<header>
+			<ul>
+				<li class='yo-ico'>&#xe790;</li>
+				<li>
+					<p id='title'>
+						<span class='active'>热点</span><span>关注</span>
+					</p>
+				</li>
+				<li class='yo-ico'>&#xe7ad;</li>
+			</ul>
+		</header>
+		<section>	
+			<div class="swiper-container" id='swiper-main'>
+  				<div class="swiper-wrapper">
+				    <div class="swiper-slide blue-slide">
+					    <nav>
+							<ul id='list'>
+	<li class='active' action-type='list.tab' data-idx='0'>足球生活</li>
+								<li action-type='list.tab' data-idx='1'>足球现场</li>
+								<li action-type='list.tab' data-idx='2'>足球美女</li>
+							</ul>
+						</nav>
+						<div class="swiper-container" id='swiper-nav'>
+						  <div class="swiper-wrapper">
+						    <div class="swiper-slide blue-slide">
+						      <div class="cont-img" spa-widget='scroll' data-scroll-id='mainscroll'>
+								<div class="scroll">
+								 <div class="head">
+                                     <img src="/img/arrow.png" alt="">
+                                     <span>下拉刷新</span>
+                                  </div>
+								<ul ms-repeat-obj='liveData'>
+									<li>
+										<i><img ms-src="obj[0].img" alt=""></i>
+										<span ms-text='obj[0].title'></span>
+									</li>
+									<li></li>
+									<li>
+										<i><img ms-src="obj[1].img" alt=""></i>
+										<span ms-text='obj[1].title'></span>
+									</li>
+								</ul>
+							 <div class="foot">
+                                      <img src="/img/arrow.png" alt="">
+                                      <span>上拉加载</span>
+                                   </div>
+								</div>
+						     </div>
+						   </div>
+						    <div class="swiper-slide red-slide">足球现场</div>
+						    <div class="swiper-slide orange-slide">足球美女</div>
+						  </div>
+						</div>
+					</div>
+					<div class="swiper-slide red-slide">关注</div>
+			  	</div>
+			</div>		
+		</section>
+</div>

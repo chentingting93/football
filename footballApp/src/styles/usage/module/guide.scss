@@ -1,0 +1,30 @@
+.swiper-container{
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	.swiper-wrapper{
+		width: 100%;
+		height: 100%;
+		.swiper-slide{
+			width: 100%;
+			height: 100%;
+			img{
+				width: 100%;
+				height: 100%;
+			}
+		}
+		.swiper-slide:last-child{
+		position:relative;
+		.herf{
+			width: 110px;
+			height: 35px;
+			position: absolute;
+			bottom:80px;
+			right: 70px;
+			a{
+				text-decoration: none;
+			}
+		}
+		}
+	}
+}

@@ -1,0 +1,134 @@
+.m-home{
+	@include flexbox();
+	@include flex-direction(column);
+	@include flex;
+	width: 100%;
+	height: 100%;
+	header{
+        	height: .44rem;
+            background: #0CC140;
+            color: #fff;
+        	ul{
+                @include flexbox;
+        		width: 100%;
+        		height: 100%; 	
+        		li{ 			
+        			text-align: center;
+        			&:not(:nth-child(2)){
+        				width:.44rem;
+        				font-size: .24rem;
+                        line-height: .44rem;
+        			};
+        			&:nth-child(2){
+        				width: 100%;
+                        p{
+                            width: 1.18rem;
+                            height: 0.25rem;
+                            @include flexbox;
+                            @include border-radius(.5rem);
+                            color: rgba(255,255,255,0.7);
+                            overflow: hidden;
+                            margin: .09rem auto 0 auto;
+                            span{
+                                width: 0.59rem;
+                                height: .25rem;
+                                line-height: .25rem;
+                                text-align: center;
+                            }
+                            .active{
+                                background:#64d985;
+                                color: #fff;
+                            }
+                            &:last-child{
+                                background:rgba(100, 217, 133, 0.7);
+                            };
+                        }
+        			};	
+        		}
+        		
+        	}
+        }
+        section{
+            @include flexbox;
+            @include flex-direction(column);
+            width: 100%;
+            height: 100%;
+            .swiper-wrapper{
+                /*position: relative;*/
+            }
+            nav{
+                height: .35rem;
+                background: #EDEEF0;
+                ul{
+                    width: 100%;
+                    height: 100%;
+                    @include flexbox;
+                    li{
+                        @include flex;
+                        line-height: .35rem;
+                        text-align: center;
+                    }
+                    .active{
+                        border-bottom: 2px solid #519765;
+                        color: #519765;
+                        @include box-sizing;
+                    }
+                }
+            }
+            .cont-img{
+                width: 100%;
+                height: 100%;
+                position:absolut;
+                .scroll{
+                    width: 100%;
+                    height: auto;
+                     .head{
+                 text-align: center;
+                 height: .3rem;
+                 line-height: .3rem;
+                 img {
+                   width: .13rem;
+                   height: .13rem;
+                   margin-bottom: 0.02rem;
+                   display: inline-block;
+                   transform: rotate(180deg);
+                   -webkit-transform: rotate(180deg);
+                   transition: transform 150ms;
+                   -webkit-transition: transform 150ms;
+                 }
+               }
+               .foot{
+                 text-align: center;
+                 height: .3rem;
+                 line-height: .3rem;
+                 img {
+                   width: .13rem;
+                   height: .13rem;
+                   margin-bottom: 0.04rem;
+                   display: inline-block;
+                   transition: transform 150ms;
+                   -webkit-transition: transform 150ms;
+                 }
+               }
+                  ul{
+                    @include flexbox;
+                    li{
+                        @include flexbox;
+                        @include flex-direction(column);
+                        &:not(:nth-child(2)){
+                            @include flex;
+                        }
+                        img{
+                            width: 100%;
+                        }
+                        &:nth-child(2){
+                            width:.1rem;
+                        }
+                    }
+                }  
+            }                            
+        }
+    }
+}
+
+    
