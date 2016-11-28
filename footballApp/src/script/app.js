@@ -9,5 +9,5 @@ require("./view/find");
 require("./view/my");
 
 SPA.config({
-	indexView:"guide"
+	indexView:"index"
 })
