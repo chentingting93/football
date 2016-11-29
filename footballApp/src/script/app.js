@@ -7,6 +7,7 @@ require("./view/guide");
 require("./view/home");
 require("./view/find");
 require("./view/my");
+require("./view/login");
 
 SPA.config({
 	indexView:"index"
